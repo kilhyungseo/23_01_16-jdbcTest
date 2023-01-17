@@ -17,8 +17,8 @@
 		String sql = "SELECT * FROM members";
 		
 		Connection conn; //DB 연결 선언
-		Statement stmt;
-		ResultSet rs;
+		Statement stmt; //Statement 선언
+		ResultSet rs; //ResultSet 선언
 	%>
 		
 	<%	

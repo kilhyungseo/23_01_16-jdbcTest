@@ -31,7 +31,7 @@
 				Class.forName(driverName);//드라이버 불러오기	
 				conn = DriverManager.getConnection(url, username, password);//DB 연동
 				//Statement stmt = conn.createStatement();
-				PreparedStatement pstmt = conn.prepareStatement(sql);
+				PreparedStatement pstmt = conn.prepareStatement(sql); //PreparedStatement 사용
 				pstmt.setString(1, mid); //sql문의 조건순서 및 변수
 				
 				int dbCheck = pstmt.executeUpdate();
@@ -44,7 +44,7 @@
 				}
 				
 				pstmt.close();
-				//System.out.println(conn);
+				
 			} catch(Exception e) {
 				e.printStackTrace();
 			} finally {

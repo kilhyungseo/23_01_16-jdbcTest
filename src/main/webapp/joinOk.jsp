@@ -32,7 +32,7 @@
 			try {
 				Class.forName(driverName);//드라이버 불러오기	
 				conn = DriverManager.getConnection(url, username, password);//DB 연동
-				Statement stmt = conn.createStatement();
+				Statement stmt = conn.createStatement(); //Statement 사용
 				
 				int dbCheck = stmt.executeUpdate(sql);
 				
