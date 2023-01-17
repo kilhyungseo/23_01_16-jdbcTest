@@ -32,7 +32,7 @@
 				String db_email = rs.getString("email");
 				String db_jointime = rs.getString("jointime");
 				
-				System.out.println(db_id + " " + db_pw + " " + db_name + " " + db_email + " " + db_jointime);	
+				out.println(db_id + " " + db_pw + " " + db_name + " " + db_email + " " + db_jointime);	
 			}
 			
 			rs.close(); //stmt 닫기전 닫아야함

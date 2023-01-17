@@ -59,5 +59,7 @@
 		%>
 		<br>
 		<a href="withDraw.jsp">회원탈퇴로 이동</a>
+		<br>
+		<a href="memberList.jsp">전체회원 조회</a>
 </body>
 </html>
