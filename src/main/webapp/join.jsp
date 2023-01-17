@@ -7,7 +7,7 @@
 <title>회원가입</title>
 </head>
 <body>
-		<h2>회원가입</h2>
+		<h2>회원가입</h2>ㅈ
 		<hr>
 		<form action="joinOk.jsp" method="get">
 			아이디 : <input type="text" name="id"><br>
